@@ -44,13 +44,14 @@ Seed the database with sample data:
 node seed.js
 ```
 ### Start App
-```
+```tils.feedkeys".run(2)
+kd
 node app.js
 ```
-Once the application is running, you can access it by navigating to http://localhost:8080 in your web browser. Use the provided authentication mechanisms to log in and explore the application's features. You can get the credentials directy from the database.
+once the application is running, you can access it by navigating to http://localhost:8080 in your web browser. use the provided authentication mechanisms to log in and explore the application's features. you can get the credentials directy from the database.
 
-## Running App with Docker
-The application also utilizes Docker to containerize both the frontend and backend components. Make sure you have Docker installed on your system before proceeding.
+## running app with docker
+the application also utilizes Docker to containerize both the frontend and backend components. Make sure you have Docker installed on your system before proceeding.
  
 ### Image Build
 Ensure you are in the project root directory. Rename the `sample.env` file to `.env` and update the MongoDB connection string in the `.env` file with the appropriate values. 
@@ -77,3 +78,5 @@ Once the application is up and running, you can access it in your web browser by
 
 ## Disclaimer
 This application is intended for educational purposes only. Use it responsibly and avoid deploying it in production environments. The developers are not liable for any misuse or damage caused by the application.
+
+## this is Sherif
